@@ -1,0 +1,7 @@
+masuk ke direktori kemudian jalankan
+sudo bash install.sh
+
+
+kemudian cek:
+systemctl status ledcontrol
+journalctl -u ledcontrol -f
