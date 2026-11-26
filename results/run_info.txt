@@ -1,0 +1,7 @@
+kernel            : 7.0.0-43-generic
+allowed CPUs      : [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]  (script+hogs on CPU 0, this tool on CPU 15)
+RR time slice     : 100 ms
+RT throttle       : 950000 us per 1000000 us
+frames/run        : 15 (+3 warm-up), gap 50 ms, deadline 50 ms
+conditions        : other, nice-10, rr-50, fifo-50, rr-eq, rr-hi
+loads (hogs)      : [0, 2, 4], repetitions 1
